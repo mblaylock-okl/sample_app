@@ -13,7 +13,7 @@ describe "Static Pages" do
 
     it "should have the right title" do
       visit '/static_pages/home'
-      expect(page).to have_title(title + "Home")
+      expect(page).to have_title("Ruby on Rails Tutorial Sample App")
     end
   end
 
